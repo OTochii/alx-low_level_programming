@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * print - recursive function to print using _putchar
@@ -27,7 +27,9 @@ void print_times_table(int n)
 		{
 			mul = ii * jj;
 			if (jj == 0)
+			{
 				_putchar('0' + mul);
+			}
 			else if (mul < 10)
 			{
 				_putchar(' ');
