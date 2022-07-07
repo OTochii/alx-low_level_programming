@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- * 
+ *
  * Return: 0 (Success)
  */
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 			printf("FizzBuzz ");
 		else if (i % 3 == 0)
 			printf("Fizz ");
-		else if (1 == 100)
+		else if (i == 100)
 			printf("Buzz");
 		else if (i % 5 == 0)
 			printf("Buzz ");
