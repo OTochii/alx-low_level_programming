@@ -2,9 +2,8 @@
 
 /**
  * print_numbers - prints numbers 0 to 9 with new line
- * @c: input
  *
- * Return: 0 (Success)
+ * Return: void
  */
 void print_numbers(void)
 {
