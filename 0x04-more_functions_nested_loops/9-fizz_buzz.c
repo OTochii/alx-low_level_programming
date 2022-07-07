@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints the numbers from 1 to 100
- *
+ * main - entry point
+ * 
  * Return: 0 (Success)
  */
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 			printf("FizzBuzz ");
 		else if (i % 3 == 0)
 			printf("Fizz ");
-		else if (1 ==100)
+		else if (1 == 100)
 			printf("Buzz");
 		else if (i % 5 == 0)
 			printf("Buzz ");
