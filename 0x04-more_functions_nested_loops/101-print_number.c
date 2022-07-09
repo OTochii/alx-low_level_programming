@@ -16,7 +16,7 @@ void print_number(int var)
 		var = -var;
 	}
 
-	print(var)
+	print(var);
 }
 
 /**
@@ -30,5 +30,5 @@ void print(unsigned int n)
 	{
 		print(n / 10);
 	}
-	_putchar('0' + (n %10));
+	_putchar('0' + (n % 10));
 }
