@@ -21,7 +21,7 @@ void puts_half(char *str)
 
 	/*Check if len is odd and divide by len by 2*/
 	if ((len % 2) == 1)
-		n = ((len + 1) / 2)
+		n = ((len + 1) / 2);
 
 	/*for loop for even len*/
 	for (i = n; str[i] != '\0'; i++)
