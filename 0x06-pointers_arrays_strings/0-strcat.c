@@ -20,7 +20,7 @@ char *_strcat(char *dest, char *src)
 
 	for (srcLen = 0; src[srcLen] != '\0'; srcLen++)
 	{
-		dest[i] = src[srcLen];
+		dest[destLen] = src[srcLen];
 	}
 
 	dest[destLen] = '\0';
