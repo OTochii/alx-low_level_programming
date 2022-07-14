@@ -12,7 +12,8 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int destLen, srcLen;
+	int destLen = 0;
+	int srcLen;
 
 	while (dest[destLen] != '\0')
 		destLen++;
