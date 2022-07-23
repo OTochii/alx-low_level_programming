@@ -1,2 +1,1 @@
-#!/bin/bash
-Readme for this directory
+Readme.md for static libraries
