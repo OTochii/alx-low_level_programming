@@ -28,3 +28,4 @@ char *str_concat(char *s1, char *s2)
 		newStr[newStrIndex++] = s2[index];
 
 	return (newStr);
+}
